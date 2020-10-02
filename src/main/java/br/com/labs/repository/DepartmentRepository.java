@@ -2,10 +2,10 @@ package br.com.labs.repository;
 
 import org.springframework.data.repository.reactive.ReactiveCrudRepository;
 
-import br.com.labs.model.Departament;
+import br.com.labs.model.Department;
 import reactor.core.publisher.Mono;
 
-public interface DepartmentRepository extends ReactiveCrudRepository<Departament, Integer>{
+public interface DepartmentRepository extends ReactiveCrudRepository<Department, Integer>{
 
-	Mono<Departament> findByUserId(Integer userId);
+	Mono<Department> findByUserId(Integer userId);
 }

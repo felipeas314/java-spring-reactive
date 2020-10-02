@@ -5,7 +5,7 @@ import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
 @Table("department")
-public class Departament {
+public class Department {
 
 	@Id
 	private Integer id;
