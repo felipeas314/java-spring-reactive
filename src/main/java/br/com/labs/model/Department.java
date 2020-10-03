@@ -17,6 +17,18 @@ public class Department {
 
 	private String loc;
 
+	public Department() {
+		super();
+	}
+	
+	public Department(Integer id, String name, Integer userId, String loc) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.userId = userId;
+		this.loc = loc;
+	}
+
 	public Integer getId() {
 		return id;
 	}
