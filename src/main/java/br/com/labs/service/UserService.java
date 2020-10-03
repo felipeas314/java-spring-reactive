@@ -81,11 +81,8 @@ public class UserService {
     			.age(x1.getAge())
     			.userId(x1.getId())
     			.userName(x1.getName())
-    			.build();
-//            .departmentId(x2.getId())
-//            .departmentName(x2.getName())
-//            .userName(x1.getName())
-//            .userId(x1.getId())
-//            .loc(x2.getLoc())
-//            .salary(x1.getSalary()).build();
+    			.departmentId(x2.getId())
+	            .departmentName(x2.getName())
+	            .loc(x2.getLoc())
+	            .salary(x1.getSalary()).build();
 }

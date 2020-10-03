@@ -13,7 +13,7 @@ public class User {
 
 	private int age;
 
-	private String salary;
+	private double salary;
 
 	public Integer getId() {
 		return id;
@@ -39,11 +39,11 @@ public class User {
 		this.age = age;
 	}
 
-	public String getSalary() {
+	public double getSalary() {
 		return salary;
 	}
 
-	public void setSalary(String salary) {
+	public void setSalary(double salary) {
 		this.salary = salary;
 	}
 

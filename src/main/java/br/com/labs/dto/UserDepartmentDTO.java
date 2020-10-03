@@ -87,11 +87,6 @@ public class UserDepartmentDTO {
 		return new UserDepartmentDTO();
 	}
 	
-	public UserDepartmentDTO age(int i) {
-//		userDepartmentDTO.setAge(age);
-		return this;
-	}
-	
 	public static class UserDepartmentDTOBuilder{
 		
 		private Integer userId;
@@ -117,6 +112,25 @@ public class UserDepartmentDTO {
 			return this;
 		}
 		
+		public UserDepartmentDTOBuilder salary(double salary) {
+			this.salary = salary;
+			return this;
+		}
+		
+		public UserDepartmentDTOBuilder departmentId(int departmentId) {
+			this.departmentId = departmentId;
+			return this;
+		}
+		
+		public UserDepartmentDTOBuilder departmentName(String departmentName) {
+			this.departmentName = departmentName;
+			return this;
+		}
+		
+		public UserDepartmentDTOBuilder loc(String loc) {
+			this.loc = loc;
+			return this;
+		}
 		
 		
 		public UserDepartmentDTO build() {
