@@ -15,6 +15,14 @@ public class User {
 
 	private double salary;
 
+	public User(Integer id, String name, int age, double salary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.salary = salary;
+	}
+
 	public Integer getId() {
 		return id;
 	}
